@@ -1,6 +1,6 @@
 /* Inter font : resource - fonts.google.com */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
   font-family: "Inter", sans-serif;
@@ -20,7 +20,7 @@
   --mb-5: 2.5rem;
   --mb-6: 3rem;
 }
-.profile{
+.profile {
   border-radius: 100px;
 }
 
@@ -31,25 +31,22 @@
   --gray-500: #737d8c;
   --gray-100: #dfe3eb;
   --white: white;
-} 
+}
 
-.social-icon{
+.social-icon {
   font-size: 35px;
-  
 }
-.collapsed
-{
-  stroke: #A71651;
+.collapsed {
+  stroke: #a71651;
 }
-.nex h3
-{
-  color:#A71651;
+.nex h3 {
+  color: #a71651;
 }
-.navbar{
+.navbar {
   background-color: #030316;
-  box-shadow: 2px 2px 6px 6px  #01010a;
+  box-shadow: 2px 2px 6px 6px #01010a;
 }
-.roncy{
+.roncy {
   background-color: white;
 }
 
@@ -57,7 +54,7 @@ body {
   background-color: #020213;
   display: grid;
 }
-.nav-item{
+.nav-item {
   padding-right: 8vh;
 }
 
@@ -91,32 +88,138 @@ nav {
   font-size: 80px;
   color: white;
 } */
-a{
+a {
   text-decoration: none;
 }
-.wrap{
+.wrap {
   font-size: 50px;
-  color:#A71651;
+  color: #a71651;
 }
 .social-icon {
   color: var(--gray-900);
 }
 
-
 /* ABOUT SECTION */
-#about{
+#about {
   transition: transform 0.2s ease;
   background-color: #030316;
 }
 
-#about .container:hover{  
+#about .container:hover {
   transform: scale(1.1);
-  box-shadow: 0px px 6px -6px  #A71651;
+  box-shadow: 5px 5px 6px 6px #a71651;
   border-radius: 20px;
 }
 
-
 /* Skills SECTION */
+.work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+.work-container .work-card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+.work-container .work-card:nth-child(1) .box .content a {
+  background: #2196f3;
+}
+
+.work-container .work-card:nth-child(2) .box .content a {
+  background: #e91e63;
+}
+
+.work-container .work-card:nth-child(3) .box .content a {
+  background: #23c186;
+}
+
+.work-container .work-card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.work-container .work-card .box:hover {
+  transform: translateY(-50px);
+}
+
+.work-container .work-card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.work-container .work-card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+body .work-container .work-card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+body .work-container .work-card .box .content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .work-container .work-card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+ .work-container .work-card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+.work-container .work-card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
 
 /* CONTACTS SECTION  */
 .contact-form {
@@ -147,23 +250,22 @@ a{
   margin-bottom: 8%;
   margin-top: -10%;
   text-align: start;
-  color: #A71651;
+  color: #a71651;
 }
 .contact-form .btnContact {
   width: 50%;
   border: none;
   border-radius: 1rem;
   padding: 1.5%;
-  background: #A71651;
+  background: #a71651;
   font-weight: 600;
   color: #fff;
   cursor: pointer;
 }
 
-
 /* FOOTER section */
 .footer {
-  background-color: #A71651;
+  background-color: #a71651;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
