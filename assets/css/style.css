@@ -32,6 +32,9 @@
   --gray-100: #dfe3eb;
   --white: white;
 }
+.menu{
+  color: #020213;
+}
 
 .social-icon {
   font-size: 35px;
@@ -101,8 +104,10 @@ a {
 
 /* ABOUT SECTION */
 #about {
+  margin-left: 15% ;
+  margin-right: 15% ;
   transition: transform 0.2s ease;
-  background-color: #030316;
+  background-color: #020213;
 }
 
 #about .container:hover {
@@ -112,9 +117,100 @@ a {
 }
 
 /* Skills SECTION */
+
+.skill-container {
+  width: 70%;
+  margin: 50px auto 0;
+  transition: transform 0.2s ease;
+  background-color: #020213;
+  padding: 20px;
+}
+.skill-container:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 6px 6px #a71651;
+  border-radius: 20px;
+}
+
+.skill-container li {
+  position: relative;
+  list-style: none;
+  margin: 50px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.skill-container ul{
+  color: #fff;
+  font-size: 20px;
+}
+
+.skill-container li:before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-color: #a71650b0;
+  border-radius: 1000px;
+}
+
+.skill-container li:after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 15px;
+  background-color: #a71651;
+  border-radius: 1000px;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.skill-container li.html:after {
+  animation-name: html;
+}
+
+@keyframes html {
+  to {
+      width: 90%;
+  }
+}
+
+.skill-container li.css:after {
+  animation-name: css;
+}
+
+@keyframes css {
+  to {
+      width: 80%;
+  }
+}
+
+.skill-container li.js:after {
+  animation-name: js;
+}
+
+@keyframes js {
+  to {
+      width: 75%;
+  }
+}
+
+.skill-container li.ng:after {
+  animation-name: ng;
+}
+
+@keyframes ng {
+  to {
+      width: 60%;
+  }
+}
+/* WORK SECTION  */
 .work-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -134,15 +230,15 @@ a {
 }
 
 .work-container .work-card:nth-child(1) .box .content a {
-  background: #2196f3;
+  background: #a71651;
 }
 
 .work-container .work-card:nth-child(2) .box .content a {
-  background: #e91e63;
+  background: #a71651;
 }
 
 .work-container .work-card:nth-child(3) .box .content a {
-  background: #23c186;
+  background: #a71651;
 }
 
 .work-container .work-card .box {
@@ -151,7 +247,7 @@ a {
   left: 20px;
   right: 20px;
   bottom: 20px;
-  background: #2a2b2f;
+  background: #03031b;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -171,7 +267,7 @@ a {
   left: 0;
   width: 50%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.03);
+ background-color: #06061f81;
 }
 
 .work-container .work-card .box .content {
@@ -202,6 +298,10 @@ body .work-container .work-card .box .content p {
   z-index: 1;
   transition: 0.5s;
 }
+.mywork{
+  margin-top: 2%;
+  margin-left: 10%;
+}
 
  .work-container .work-card .box .content a {
   position: relative;
@@ -224,7 +324,7 @@ body .work-container .work-card .box .content p {
 /* CONTACTS SECTION  */
 .contact-form {
   background: #020213;
-  margin-top: 10%;
+
   margin-bottom: 5%;
   width: 90%;
 }
