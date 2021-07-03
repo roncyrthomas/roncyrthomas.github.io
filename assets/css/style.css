@@ -31,6 +31,19 @@
   --gray-500: #737d8c;
   --gray-100: #dfe3eb;
   --white: white;
+} 
+
+.social-icon{
+  font-size: 35px;
+  
+}
+.collapsed
+{
+  stroke: #A71651;
+}
+.nex h3
+{
+  color:#A71651;
 }
 .navbar{
   background-color: #030316;
@@ -42,6 +55,7 @@
 
 body {
   background-color: #020213;
+  display: grid;
 }
 .nav-item{
   padding-right: 8vh;
@@ -86,4 +100,32 @@ a{
 }
 .social-icon {
   color: var(--gray-900);
+}
+
+
+/* ABOUT SECTION */
+
+
+/* Skills SECTION */
+
+
+/* FOOTER section */
+.footer {
+  background-color: #A71651;
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 1rem 0;
+}
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+.footer__social {
+  margin-bottom: var(--mb-4);
+}
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 var(--mb-2);
 }
