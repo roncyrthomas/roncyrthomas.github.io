@@ -105,12 +105,14 @@ a{
 
 /* ABOUT SECTION */
 #about{
+  transition: transform 0.2s ease;
   background-color: #030316;
-  border-radius: 5%;
- 
 }
-#about:hover{
-  background-color: #380318;
+
+#about .container:hover{  
+  transform: scale(1.1);
+  box-shadow: 0px px 6px -6px  #A71651;
+  border-radius: 20px;
 }
 
 
