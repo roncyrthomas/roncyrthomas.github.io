@@ -1,0 +1,89 @@
+/* Inter font : resource - fonts.google.com */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/*===== Margenes =====*/
+:root {
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+.profile{
+  border-radius: 100px;
+}
+
+:root {
+  --primary-color: #684fff;
+  --secondary-color: #5033ff;
+  --gray-900: #0a1931;
+  --gray-500: #737d8c;
+  --gray-100: #dfe3eb;
+  --white: white;
+}
+.navbar{
+  background-color: #030316;
+  box-shadow: 2px 2px 6px 6px  #01010a;
+}
+.roncy{
+  background-color: white;
+}
+
+body {
+  background-color: #020213;
+}
+.nav-item{
+  padding-right: 8vh;
+}
+
+nav {
+  font-weight: 600;
+}
+
+.hero {
+  height: 100vh;
+}
+
+.nav-container .nav-logo {
+  background-color: var(--gray-100);
+  border-radius: 50px;
+  color: var(--gray-900);
+}
+
+.hero-content {
+  height: 100%;
+}
+
+.hero-content div h1 {
+  font-weight: 700;
+  font-size: 80px;
+  color: var(--gray-900);
+}
+
+/* .hero-content div span {
+  background-color: #5033ff;
+  font-weight: 700;
+  font-size: 80px;
+  color: white;
+} */
+a{
+  text-decoration: none;
+}
+.wrap{
+  font-size: 50px;
+  color:#A71651;
+}
+.social-icon {
+  color: var(--gray-900);
+}
