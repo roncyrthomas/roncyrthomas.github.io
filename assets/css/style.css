@@ -32,7 +32,7 @@
   --gray-100: #dfe3eb;
   --white: white;
 }
-.menu{
+.menu {
   color: #020213;
 }
 
@@ -51,6 +51,16 @@
 }
 .roncy {
   background-color: white;
+}
+
+.active {
+  color: #a71651 !important;
+}
+
+.menu-icon {
+  color: rgba(0, 0, 0, 0) !important;
+  border: none;
+  /* background-color: white !important; */
 }
 
 body {
@@ -104,8 +114,8 @@ a {
 
 /* ABOUT SECTION */
 #about {
-  margin-left: 15% ;
-  margin-right: 15% ;
+  margin-left: 15%;
+  margin-right: 15%;
   transition: transform 0.2s ease;
   background-color: #020213;
 }
@@ -125,7 +135,7 @@ a {
   background-color: #020213;
   padding: 20px;
 }
-.skill-container:hover{
+.skill-container:hover {
   transform: scale(1.1);
   box-shadow: 5px 5px 6px 6px #a71651;
   border-radius: 20px;
@@ -138,7 +148,7 @@ a {
   font-weight: 500;
   text-transform: uppercase;
 }
-.skill-container ul{
+.skill-container ul {
   color: #fff;
   font-size: 20px;
 }
@@ -163,7 +173,7 @@ a {
   height: 15px;
   background-color: #a71651;
   border-radius: 1000px;
-  animation-duration: .7s;
+  animation-duration: 0.7s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
@@ -174,7 +184,7 @@ a {
 
 @keyframes html {
   to {
-      width: 90%;
+    width: 90%;
   }
 }
 
@@ -184,7 +194,7 @@ a {
 
 @keyframes css {
   to {
-      width: 80%;
+    width: 80%;
   }
 }
 
@@ -194,7 +204,7 @@ a {
 
 @keyframes js {
   to {
-      width: 75%;
+    width: 75%;
   }
 }
 
@@ -204,13 +214,13 @@ a {
 
 @keyframes ng {
   to {
-      width: 60%;
+    width: 60%;
   }
 }
 /* WORK SECTION  */
 .work-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -267,7 +277,7 @@ a {
   left: 0;
   width: 50%;
   height: 100%;
- background-color: #06061f81;
+  background-color: #06061f81;
 }
 
 .work-container .work-card .box .content {
@@ -298,12 +308,12 @@ body .work-container .work-card .box .content p {
   z-index: 1;
   transition: 0.5s;
 }
-.mywork{
+.mywork {
   margin-top: 2%;
   margin-left: 10%;
 }
 
- .work-container .work-card .box .content a {
+.work-container .work-card .box .content a {
   position: relative;
   display: inline-block;
   padding: 8px 20px;
