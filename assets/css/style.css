@@ -112,7 +112,9 @@ a {
 
 #about .container:hover {
   transform: scale(1.1);
-  box-shadow: 5px 5px 6px 6px #a71651;
+  box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
+-webkit-box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
+-moz-box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
   border-radius: 20px;
 }
 
@@ -127,7 +129,9 @@ a {
 }
 .skill-container:hover{
   transform: scale(1.1);
-  box-shadow: 5px 5px 6px 6px #a71651;
+  box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
+-webkit-box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
+-moz-box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
   border-radius: 20px;
 }
 
