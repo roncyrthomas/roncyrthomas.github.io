@@ -116,15 +116,15 @@ a {
 #about {
   margin-left: 15%;
   margin-right: 15%;
-  transition: transform 0.2s ease;
+  transition: transform 0.8s ease;
   background-color: #020213;
 }
 
 #about .container:hover {
   transform: scale(1.1);
-  box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
--webkit-box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
--moz-box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
+  box-shadow: 13px 13px 12px 0px rgba(167,22,81,0.75);
+  -webkit-box-shadow: 13px 13px 12px 0px rgba(167,22,81,0.75);
+  -moz-box-shadow: 13px 13px 12px 0px rgba(167,22,81,0.75);
   border-radius: 20px;
 }
 
@@ -139,9 +139,9 @@ a {
 }
 .skill-container:hover {
   transform: scale(1.1);
-  box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
--webkit-box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
--moz-box-shadow: 15px 23px 24px 0px rgba(167,22,81,0.72);
+  box-shadow: 13px 13px 12px 0px rgba(167,22,81,0.75);
+-webkit-box-shadow: 13px 13px 12px 0px rgba(167,22,81,0.75);
+-moz-box-shadow: 13px 13px 12px 0px rgba(167,22,81,0.75);
   border-radius: 20px;
 }
 
