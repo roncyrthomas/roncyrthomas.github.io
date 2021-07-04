@@ -107,6 +107,8 @@ a {
 .wrap {
   font-size: 50px;
   color: #a71651;
+  /* border-right: .15em solid orange !important; */
+  border-right: .15em solid #a71651 !important;
 }
 .social-icon {
   color: var(--gray-900);
