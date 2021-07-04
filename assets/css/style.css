@@ -53,6 +53,10 @@
   background-color: white;
 }
 
+.active{
+  color: #a71651 !important;
+}
+
 body {
   background-color: #020213;
   display: grid;
@@ -210,7 +214,7 @@ a {
 /* WORK SECTION  */
 .work-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
